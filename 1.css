@@ -1,13 +1,31 @@
+:root{
+    --font-one: 'Nunito', sans-serif
+}
 html{
     font-size: 62.5%
 }
 
 
-h1{
-    font-size: 3.5rem;
-    margin: 0;
-    color: #000;
+
+.header{
+    height: 160px;
+    width: 100%;
+    font-size: 2rem;
+    font-family: var(--font-one);
+    font-style: initial;
+    
+
 }
-.course-item{
-    background-color: thistle;
+li a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+li{
+    display: block;
+    float: left;
 }
